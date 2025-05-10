@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1904/1904298.png">
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Student Registration System</h1>
+    <p>Register, update, and manage student records efficiently.</p>
+  </header>
+
+  <main>
+    <!-- Registration Form Section -->
+    <section id="form-section">
+      <h2>Register New Student</h2>
+      <!-- Student Registration Form -->
+      <form id="studentForm">
+        <!-- Input fields for student information -->
+        <input type="text" id="name" placeholder="Student Name" required>
+        <input type="text" id="studentId" placeholder="Student ID (e.g., RA78768)" required>
+        <input type="email" id="email" placeholder="Email ID" required>
+        <input type="text" id="contact" placeholder="Contact No. (10 digits)" required>
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <!-- Display Registered Students -->
+    <section id="records-section">
+      <h2>Registered Students</h2>
+      <div id="studentListContainer">
+        <table id="studentTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>ID</th>
+              <th>Email</th>
+              <th>Contact</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="studentList">
+            <!-- Student records will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

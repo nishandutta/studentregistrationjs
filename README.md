@@ -37,7 +37,7 @@ LocalStorage for data persistence
 
 🚀 How to Run
 Download or Clone the Repository:
-git clone https://github.com/yourusername/student-registration-system.git
+git clone https://github.com/nishandutta/studentregistrationjs.git
 
 Open index.html in your browser:
 cd student-registration-system
